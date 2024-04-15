@@ -4,6 +4,13 @@
   --whitecolor: #fbfbfb;
 }
 
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -13,12 +20,14 @@ p {
 }
 
 body {
-  background-color: black;
   padding-top: 100px;
+  height: 1000px;
+  background: linear-gradient(to bottom, #1f2d5a, #667abc);
 }
 
 .logo-image {
   width: 150px;
+  padding-left: 15px;
 }
 
 .hero {
@@ -31,11 +40,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  outline: 2px solid white;
   flex-wrap: wrap;
 }
 .profile-photo {
   border-radius: 150px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 .profile-photo-container {
   display: flex;
@@ -54,7 +63,7 @@ body {
 }
 
 .navbar-gb {
-  background-color: #1f2d5a !important;
+  background-color: transparent !important;
 }
 
 .button {
