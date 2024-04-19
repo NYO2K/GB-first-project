@@ -21,7 +21,7 @@ p {
 
 body {
   padding-top: 100px;
-  height: 1000px;
+  height: 100vh;
   background: linear-gradient(to bottom, #1f2d5a, #667abc);
 }
 
@@ -91,4 +91,18 @@ body {
 .button:active {
   background-color: #1f2d5a;
   border-color: #1f2d5a;
+}
+
+@media (max-width: 600px) {
+  .hero-text-container {
+    width: 380px;
+    text-align: center; /* Center-align hero text */
+  }
+
+  .profile-photo-container {
+    margin-bottom: 1rem; /* Add some spacing between the profile photo and text */
+  }
+  .hero {
+    margin-top: 4rem;
+  }
 }
