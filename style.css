@@ -11,7 +11,10 @@ body {
   padding: 0;
 }
 
-p {
+p,
+h2,
+h1,
+label {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -105,4 +108,14 @@ body {
   .hero {
     margin-top: 4rem;
   }
+}
+
+/* contact section */
+.contact {
+  display: block;
+  text-align: center;
+}
+
+.contact-h2 {
+  text-align: center;
 }
