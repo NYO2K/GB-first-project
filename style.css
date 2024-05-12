@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+}
 p,
 h2,
 h1,
@@ -24,7 +28,7 @@ label {
 
 body {
   padding-top: 100px;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #1f2d5a, #667abc);
 }
 .button {
@@ -50,14 +54,13 @@ body {
 }
 
 .clickme-logo {
-  width: 300px;
-  align-items: center;
-  text-align: center;
+  width: 500px;
 }
 
 .logo-a-clickme {
   display: flex;
   justify-content: center;
+  margin-top: 200px;
 }
 
 .hero {
